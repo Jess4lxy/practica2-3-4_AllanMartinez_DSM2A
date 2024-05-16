@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.background-design {
+    height: 1470px;
+    width: 1000px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 0 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Offset X, Offset Y, Blur Radius, Color */
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 400px;
+    width: 1000px;
+    background-image: url(images/bookshelf.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.header-card {
+    height: 250px;
+    width: 700px;
+    background-color: #00A886;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 18px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.524);
+}
+.card-info {
+    height: 170px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 55px;
+}
+.card-name {
+    font-size: 24px; /* Tamaño de fuente más grande para el nombre */
+    font-weight: bold;
+    color: white; /*color de texto*/
+    margin: 0px;
+}
+.card-description {
+    font-size: 16px; /* Tamaño de fuente para la descripción */
+    color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.card-contact-container {
+    height: 0px;
+    width: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    white-space: nowrap; /*con esto evito que las palabras se pasen al otra linea cuando escribo un espacio*/
+}
+.card-contact-container a {
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+.card-contact {
+    font-size: 12px;
+    color: white;
+}
+.contact-img {
+    align-self: center;
+    margin-right: 5px;
+}
+
+.info-CV {
+    height: 150px;
+    width: 700px;
+    max-width: 700px;
+    background-color: rgb(211, 208, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.524);
+    box-sizing: border-box;
+}
+
+.info-CV h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #00A886; /* Color verde */
+}
+
+.info-CV p {
+    font-size: 16px;
+    margin: 5px 0; /* Margen superior e inferior */
+    color: #333; /* Color de texto */
+}
+
+.size-EXL {
+    height: 180px;
+    width: 700px;
+    padding-top: 5px
+}
+
+.size-CA {
+    height: 230px;
+    width: 700px;
+    padding-top: 5px;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.back-form {
+    height: 600px;
+    width: 800px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid gray;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Offset X, Offset Y, Blur Radius, Color */
+}
+form {
+    height: 580px;
+    width: 780px;
+    font-size: 20px;
+    padding-right: 90px;
+    padding-top: 25px;
+    text-align: right;
+    background-color: rgba(128, 128, 128, 0.363);
+    box-sizing: border-box;
+}
+input {
+    width: 305px;
+    height: 30px;
+}
+select {
+    width: 100px;
+    height: 30px;
+}
+
+.pais {
+    width: 312px;
+}
+

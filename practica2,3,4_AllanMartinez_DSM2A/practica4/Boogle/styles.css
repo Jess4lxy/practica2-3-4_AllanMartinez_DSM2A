@@ -1,0 +1,172 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2c003e; /* Morado oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+header {
+    height: 60px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.head-container {
+    height: 32px;
+    width: 90px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border-right: 3px solid white;
+}
+
+.head-excp {
+    border: none;
+}
+
+.left-head-container {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+    padding-left: 17px;
+}
+
+.images {
+    display: flex;
+    align-self: center;
+    padding-left: 25px;
+}
+
+.maps {
+    display: flex;
+    align-self: center;
+    padding-left: 30px;
+}
+
+.news {
+    display: flex;
+    align-self: center;
+    padding-left: 27px;
+}
+
+.more {
+    display: flex;
+    align-self: center;
+    padding-left: 23px;
+}
+
+.right-head-container {
+    padding-left: 820px;
+    display: flex;
+}
+
+.kittysearch {
+    display: flex;
+    align-self: center;
+}
+
+.signin {
+    display: flex;
+    align-self: center;
+    padding-left: 20px;
+}
+
+
+.right-head-container {
+    padding-left: 820px;
+    display: flex;
+}
+
+.kittysearch {
+    display: flex;
+    align-self: center;
+}
+
+.signin {
+    display: flex;
+    align-self: center;
+    padding-left: 20px;
+}
+
+main {
+    height: 500px; /* Altura de la ventana menos la altura del encabezado */
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kittysearch-title {
+    padding-right: 50px;
+    font-size: 50px; /* Tamaño de la fuente aumentado para hacerlo más atractivo */
+    font-weight: bold; /* Texto en negrita */
+    color: #f3e5f5; /* Morado claro */
+    text-shadow: 0 0 10px #6a00f4, 0 0 20px #6a00f4, 0 0 40px #6a00f4; /* Efecto neon */
+    margin-bottom: 20px; /* Espacio adicional entre el título y el formulario de búsqueda */
+}
+
+.search-input {
+    width: 700px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #fff; /* Borde blanco */
+    border-radius: 10px; /* Bordes más redondeados */
+    margin-bottom: 10px; /* Espacio adicional entre el campo de búsqueda y el botón */
+    background-color: #6a00f4; /* Morado neon */
+    color: #fff; /* Texto blanco */
+}
+
+.search-button {
+    width: 100px; /* Ancho del botón aumentado */
+    height: 40px;
+    font-size: 16px;
+    background-color: #6a00f4; /* Morado neon */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 10px; /* Bordes más redondeados */
+    cursor: pointer;
+    text-shadow: 0 0 10px #6a00f4, 0 0 20px #6a00f4, 0 0 40px #6a00f4; /* Efecto neon */
+}
+
+.search-button:hover {
+    background-color: #f3e5f5; /* Morado claro */
+    color: #6a00f4; /* Morado neon */
+    text-shadow: none; /* Elimina el efecto neon al pasar el ratón */
+}
+
+.advProg, .bsnSol, .kitSrch {
+    padding: 10px 20px; /* Ajuste el padding para un mejor aspecto */
+    height: 32px;
+    width: auto; /* Elimine el ancho fijo y permita que el contenido determine el ancho */
+    border-right: 3px solid #fff; /* Borde blanco */
+    color: #fff; /* Texto blanco */
+}
+
+.footer-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.advProg:last-child, .bsnSol:last-child, .kitSrch:last-child {
+    border-right: none; /* Elimina el borde derecho del último elemento */
+}
+
+.rights {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Ajusta el espacio superior */
+    align-self: center; /* Centra verticalmente el elemento */
+    color: #fff; /* Texto blanco */
+}

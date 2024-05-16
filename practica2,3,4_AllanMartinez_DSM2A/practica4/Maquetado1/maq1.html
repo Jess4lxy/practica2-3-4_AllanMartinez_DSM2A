@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuestionario 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="back-form">
+        <form>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido (Como se muestra en su pasaporte)" required><br><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Solo nombre" required><br><br>
+
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <select id="dia" name="dia"></select>
+            <select id="mes" name="mes"></select>
+            <select id="año" name="año"></select><br><br>
+
+            <label for="ciudad_nacimiento">Ciudad de nacimiento:</label>
+            <input type="text" id="ciudad_nacimiento" name="ciudad_nacimiento" placeholder="Ciudad de nacimiento" required><br><br>
+
+            <label for="pais_nacimiento">País de nacimiento:</label>
+            <select id="pais_nacimiento" name="pais_nacimiento" class="pais"></select><br><br>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad" name="nacionalidad" class="pais"></select><br><br>
+
+            <label for="numero_pasaporte">Número de pasaporte:</label>
+            <input type="text" id="numero_pasaporte" name="numero_pasaporte" placeholder="Numero de pasaporte"><br><br>
+
+            <label for="pais_emision_pasaporte">País donde ha sido emitido el pasaporte:</label>
+            <select id="pais_emision_pasaporte" name="pais_emision_pasaporte" class="pais">
+                <!-- Opciones para los países -->
+            </select><br><br>
+
+            <label for="fecha_emision_pasaporte">Fecha de emisión del pasaporte:</label>
+            <select id="dia_emision_pasaporte" name="dia_emision_pasaporte">
+                <!-- Opciones para el día -->
+            </select>
+            <select id="mes_emision_pasaporte" name="mes_emision_pasaporte">
+                <!-- Opciones para el mes -->
+            </select>
+            <select id="año_emision_pasaporte" name="año_emision_pasaporte">
+                <!-- Opciones para el año -->
+            </select><br><br>
+
+            <label for="fecha_vencimiento_pasaporte">Fecha de vencimiento del pasaporte:</label>
+            <select id="dia_vencimiento_pasaporte" name="dia_vencimiento_pasaporte">
+                <!-- Opciones para el día -->
+            </select>
+            <select id="mes_vencimiento_pasaporte" name="mes_vencimiento_pasaporte">
+                <!-- Opciones para el mes -->
+            </select>
+            <select id="año_vencimiento_pasaporte" name="año_vencimiento_pasaporte">
+                <!-- Opciones para el año -->
+            </select><br><br>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
